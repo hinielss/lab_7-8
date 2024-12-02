@@ -6,9 +6,9 @@ int main() {
     ProcessList processList;
 
     // Добавление элементов
+    processList.insert(PCB(3, "Process3", "Stopped", 30));
     processList.insert(PCB(1, "Process1", "Running", 10));
     processList.insert(PCB(2, "Process2", "Waiting", 20));
-    processList.insert(PCB(3, "Process3", "Stopped", 30));
 
     // Вывод списка
     std::cout << "Список после добавления:\n";
